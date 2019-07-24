@@ -1,0 +1,87 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: SF Pro Text, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0241176em;
+}
+
+.header {
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  background-color: blue;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+.bus-list {
+  background-color: #C4C4C4;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.button {
+  background: #000000;
+  padding: 5%;
+}
+
+.content {
+  background: #FFFFFF;
+  border-radius: 8px 8px 0px 0px;
+  display: inline-block;
+  padding: 2px;
+  width: 250px;
+  height: 30px;
+}
+
+.content h3 {
+  color: #666666;
+  padding: 2px 4px;
+}
+
+.line {
+  background-color: #C8C7CC;
+  display: inline-block;
+  width: 250px;
+  height: 2px;
+}
+
+.late-info {
+  background: #FF3B30;
+  border-radius: 0px 0px 8px 8px;
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+}
+
+.late-info h3 {
+  color: #FFFFFF;
+  padding: 2px;
+}
+
+
+.arrow-background {
+  background: #C8C7CC;
+  border-radius: 100px 0px 0px 100px;
+  display: inline-block;
+  float: right;
+  width: 27px;
+  height: 50px;
+}
